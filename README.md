@@ -13,12 +13,6 @@
 
 ### 🏠 [Homepage](https://github.com/zdg39/Z-Spider)
 
-## Install
-
-```sh
-npm install
-```
-
 ## Author
 
 👤**zdg &lt;zhudg39@gmail.com&gt;**
