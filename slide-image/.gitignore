@@ -1,0 +1,7 @@
+*.class
+slide-image.iml
+.project
+.classpath
+.idea/
+target/
+
