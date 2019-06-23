@@ -19,7 +19,7 @@
 
 ### 滑块验证码
 #### 拼图类滑块验证码
-- [移动图片和另一张图片拼完整得到x轴坐标差]()
+- [移动图片和另一张图片拼完整得到x轴坐标差](https://github.com/zdg39/Z-Spider/tree/master/slide-image)
 
 
 ## Author
