@@ -1,6 +1,7 @@
 <h1 align="center">Welcome to Z-Spider 👋</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/java-1.8-blue.svg" />
   <a href="https://github.com/zdg39/Z-Spider">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
