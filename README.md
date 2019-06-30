@@ -15,8 +15,24 @@
 ### 🏠 [Homepage](https://github.com/zdg39/Z-Spider)
 
 ## 目录
+- 正则
+  - 贪婪模式和非贪婪模式
+- xpath
 - [滑块验证码](#滑块验证码)
   - [拼图类滑块验证码](#拼图类滑块验证码)
+- selenium
+- appium
+- 反编译
+  - jadx-gui
+- 中间人(mitm)
+  - littleproxy
+  - mitmproxy
+  - servlet反向代理
+- xposed
+  - xposed脱壳
+  - xposed hook
+
+***
 
 ### 滑块验证码
 #### 拼图类滑块验证码
