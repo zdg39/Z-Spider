@@ -22,8 +22,8 @@
   - [拼图类滑块验证码](#拼图类滑块验证码)
 - selenium
 - appium
-- 反编译
-  - jadx-gui
+- [反编译](#反编译)
+  - [jadx-gui](#jadx-gui)
 - 中间人(mitm)
   - littleproxy
   - mitmproxy
@@ -38,6 +38,10 @@
 #### 拼图类滑块验证码
 - [移动图片和另一张图片拼完整得到x轴坐标差(java版)](https://github.com/zdg39/Z-Spider/tree/master/slide-image)
 - [移动图片和另一张图片拼完整得到x轴坐标差(python版)](https://github.com/zdg39/Z-Spider/tree/master/opencv-python)
+
+### 反编译
+#### jadx-gui
+- [jadx-gui的高级技巧](https://www.jianshu.com/p/e5b021df2170)
 
 
 ## Author
