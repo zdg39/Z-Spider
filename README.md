@@ -36,7 +36,8 @@
 
 ### 滑块验证码
 #### 拼图类滑块验证码
-- [移动图片和另一张图片拼完整得到x轴坐标差](https://github.com/zdg39/Z-Spider/tree/master/slide-image)
+- [移动图片和另一张图片拼完整得到x轴坐标差(java版)](https://github.com/zdg39/Z-Spider/tree/master/slide-image)
+- [移动图片和另一张图片拼完整得到x轴坐标差(python版)](https://github.com/zdg39/Z-Spider/opencv-python/opencv.py)
 
 
 ## Author
