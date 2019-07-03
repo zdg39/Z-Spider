@@ -18,6 +18,10 @@
 - 正则
   - 贪婪模式和非贪婪模式
 - xpath
+- 构建js解析器
+  - rhino+envjs
+  - htmlunit+jsp
+- cookie管理
 - [滑块验证码](#滑块验证码)
   - [拼图类滑块验证码](#拼图类滑块验证码)
 - selenium
@@ -31,6 +35,7 @@
 - xposed
   - xposed脱壳
   - xposed hook
+  - virtualXposed(免root xposed)
 
 ***
 
