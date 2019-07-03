@@ -25,6 +25,9 @@
 - [滑块验证码](#滑块验证码)
   - [拼图类滑块验证码](#拼图类滑块验证码)
 - selenium
+  - webdriver
+  - chrome headless
+  - phantomjs(版本已不再更新,一般不考虑使用)
 - appium
 - [反编译](#反编译)
   - [jadx-gui](#jadx-gui)
