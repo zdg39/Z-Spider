@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/java-1.8-blue.svg" />
+  <img src="https://img.shields.io/badge/python-3.7-blue.svg"/>
   <a href="https://github.com/zdg39/Z-Spider">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
@@ -10,7 +11,7 @@
   </a>
 </p>
 
-> Z-Spider:一些破解反爬虫的技巧和案例
+> Z-Spider:一些爬虫开发的技巧和案例
 
 ### 🏠 [Homepage](https://github.com/zdg39/Z-Spider)
 
