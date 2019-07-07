@@ -19,6 +19,7 @@
 - 正则
   - 贪婪模式和非贪婪模式
 - xpath
+- jsoup
 - 构建js解析器
   - rhino+envjs
   - htmlunit+jsp
