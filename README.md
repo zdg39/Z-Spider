@@ -33,6 +33,7 @@
   - [mitmproxy](#mitmproxy)
   - [servlet反向代理](#servlet反向代理)
 - [xposed](#xposed)
+  - [xposed抓包](#xposed抓包)
   - [xposed脱壳](#xposed脱壳)
   - [hook](#hook)
   - [virtualXposed(免xposed)](#virtualXposed)
@@ -66,6 +67,9 @@
   - [使用教程](https://github.com/mitre/HTTP-Proxy-Servlet)
 
 ### xposed
+#### xposed抓包
+- [Xposed+JustTrustMe关闭SSL证书验证](https://www.jianshu.com/p/310d930dd62f)
+
 #### xposed脱壳
 - [使用Xposed+FDex2插件脱壳](http://www.site-digger.com/html/articles/20190622/732.html)
 
