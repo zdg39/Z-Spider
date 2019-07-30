@@ -24,6 +24,8 @@
   - rhino+envjs
   - htmlunit+jsp
 - cookie管理
+  - 分布式爬虫cookie管理
+  - 多域名cookie管理
 - [滑块验证码](#滑块验证码)
   - [拼图类滑块验证码](#拼图类滑块验证码)
 - [反编译](#反编译)
