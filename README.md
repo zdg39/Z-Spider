@@ -28,6 +28,8 @@
   - 多域名cookie管理
 - [滑块验证码](#滑块验证码)
   - [拼图类滑块验证码](#拼图类滑块验证码)
+- [图形验证码](#图形验证码)
+  - [数字英文类图形验证码](#数字英文类图形验证码)
 - [反编译](#反编译)
   - [jadx-gui](#jadx-gui)
 - [中间人(mitm)](#中间人)
@@ -51,6 +53,10 @@
 #### 拼图类滑块验证码
 - [移动图片和另一张图片拼完整得到x轴坐标差(java版)](https://github.com/zdg39/Z-Spider/tree/master/slide-image)
 - [移动图片和另一张图片拼完整得到x轴坐标差(python版)](https://github.com/zdg39/Z-Spider/tree/master/opencv-python)
+
+### 图形验证码
+#### 数字英文类图形验证码
+- [无干扰线无扭曲无交叠数字英文类图形验证码](https://github.com/zdg39/Z-Spider/tree/master/tess4j-ocr-examples)
 
 ### 反编译
 #### jadx-gui
