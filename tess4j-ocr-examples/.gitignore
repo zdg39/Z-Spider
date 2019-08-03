@@ -1,0 +1,7 @@
+*.class
+tess4j-ocr-examples.iml
+.project
+.classpath
+.idea/
+target/
+
