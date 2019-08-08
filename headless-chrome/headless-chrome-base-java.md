@@ -54,9 +54,9 @@ headlessChromeDriver.get("https://www.baidu.com");
 ```
 当你使用--remote-debugging-port=9222运行Chrome他会启动一个支持[DevTool协议](https://chromedevtools.github.io/devtools-protocol)的实例该协议用于与Chrome进行通信，并且驱动 Headless Chrome浏览器实例。它也是一个类似Sublime、VS Code 和 Node 的工具，可用于应用程序的远程调试。#协同效应
 启动程序后可以使用localhost:9222访问headless chrome的运行情况
-<center>![](headless-chrome/remote-debugging-1.png)</center>
+<center>![](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/remote-debugging-1.png)</center>
 
 点击百度一下,你就知道则进入打开的百度窗口
-<center>![](headless-chrome/remote-debugging-2.png)</center>
+<center>![](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/remote-debugging-2.png)</center>
 
 >DevTool Api:https://chromedevtools.github.io/devtools-protocol
