@@ -41,9 +41,9 @@
   - [xposed脱壳](#xposed脱壳)
   - [hook](#hook)
   - [virtualXposed(免xposed)](#virtualXposed)
-- selenium
+- [selenium](#selenium)
   - webdriver
-  - chrome headless
+  - [headless chrome](#headless chrome)
   - phantomjs(版本已不再更新,一般不考虑使用)
 - [appium](#appium)
   - [appium环境搭建](#appium环境搭建)
@@ -88,6 +88,10 @@
 #### virtualXposed
 - [官方文档](https://vxposed.com)
 - [使用VirtualXposed进行hook](https://mp.weixin.qq.com/s?__biz=MzI1NDg4MTIxMw==&mid=2247484059&idx=1&sn=08722492fcaca840d980b20921217d1c&key=4e389947016351e1e0db9e4c748d4deb1b165b7ba8575728f8540ec8b86c839a13a3bece438383827c017d8e908b56f00dd5ae22ac718ac33436d0ffa42a6ca8dfc753c56945a92789d2c883f11c4f49&ascene=1&uin=MjE4NDE2MzgzNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=f78tVFFElmpnLb7e%2F62L9mBW74v5Nfk9gRZSx%2F0gSXqm5m33zI4TBCJ2csHcyBCO)
+
+## selenium
+### headless chrome
+- [java使用headless chrome]()
 
 ### appium
 #### appium环境搭建
