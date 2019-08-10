@@ -1,7 +1,8 @@
 # <center>java远程调用headless chrome
-headless chrome除了可以运行在本地机器,还可以运行在远程机器,本地编写客户端调用。
 
 ## 基本原理
+headless chrome除了可以运行在本地机器,还可以运行在远程机器,本地使用客户端调用。在服务端安装chromedriver,本地通过RemoteWebDriver调用服务端的chromedriver。
+
 ## 搭建服务端环境
 服务端选用阿里云CentOS7机器,配置是1核2G，也可以使用windows机器,windows机器搭建和linux基本一致,直接进入相关链接下载对应的版本即可。
 - 安装chrome
@@ -53,3 +54,44 @@ nohup java -Dwebdriver.chrome.driver=/usr/local/chromedriver -jar selenium-serve
 ``
 
 ![selenium-hub](https://raw.githubusercontent.com/zdg39/Z-Spider/master/headless-chrome/images/selenium-hub.png)
+
+## 客户端测试
+客户端直接使用windows环境测试,编写以下代码,ChromeOptions设置和headless chrome本地运行类似具体可参考[java使用headless chrome](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/headless-chrome-base-java.md)。
+
+```java
+ChromeOptions options = new ChromeOptions();
+options.addArguments("--user-data-dir=/usr/local/selenium/data");
+options.addArguments("--profile-directory=/usr/local/selenium/profile");
+options.addArguments("--User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36");
+options.addArguments("--headless");
+options.addArguments("--disable-gpu");
+options.addArguments("--window-size=1920,1080");
+options.addArguments("--remote-debugging-address=0.0.0.0");
+options.addArguments("--remote-debugging-port=9222");
+options.addArguments("--no-sandbox");
+
+DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
+//启用性能日志
+LoggingPreferences logPrefs = new LoggingPreferences();
+logPrefs.enable(LogType.PERFORMANCE, Level.ALL);
+desiredCapabilities.setCapability(CapabilityType.LOGGING_PREFS, logPrefs);
+desiredCapabilities.setCapability(ChromeOptions.CAPABILITY,options);
+RemoteWebDriver remoteHeadlessDriver;
+try {
+    remoteHeadlessDriver = new RemoteWebDriver(new URL("http://yourip:4445/wd/hub"),desiredCapabilities);
+} catch (MalformedURLException e) {
+    e.printStackTrace();
+    return;
+}
+remoteHeadlessDriver.get(https://www.baidu.com");
+//记得最后关闭浏览器
+remoteHeadlessDriver.quit();
+```
+
+``
+运行客户端程序后,在浏览器地址栏输入http://yourip:4445/wd/hub即可查看chrome运行状态,点击Take Screenshot即可截屏远程headless chrome
+``
+
+![remote-headless-chrome](https://raw.githubusercontent.com/zdg39/Z-Spider/master/headless-chrome/images/remote-headless-chrome.png)
+
+![remote-headless-chrome-screenshot](https://raw.githubusercontent.com/zdg39/Z-Spider/master/headless-chrome/images/remote-headless-chrome-screenshot.png)
