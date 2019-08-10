@@ -46,10 +46,10 @@ nohup java -Dwebdriver.chrome.driver=/usr/local/chromedriver -jar selenium-serve
 输入启动命令后查看selenium-server-standalone.log文件,看到以下输出则是启动成功。#启动比较慢,耐心等待即可
 ``
 
-![selenium-server-standalone-start](https://raw.githubusercontent.com/zdg39/Z-Spider/master/headless-chrome/selenium-server-standalone-start.png)
+![selenium-server-standalone-start](https://raw.githubusercontent.com/zdg39/Z-Spider/master/headless-chrome/images/selenium-server-standalone-start.png)
 
 ``
 在浏览器地址栏输入http://yourip:4445/wd/hub即可看到以下输出,到这里服务端环境已经搭建成功。
 ``
 
-![selenium-hub](https://raw.githubusercontent.com/zdg39/Z-Spider/master/headless-chrome/selenium-hub.png)
+![selenium-hub](https://raw.githubusercontent.com/zdg39/Z-Spider/master/headless-chrome/images/selenium-hub.png)
