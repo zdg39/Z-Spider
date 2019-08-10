@@ -92,6 +92,7 @@
 ## selenium
 ### headlessChrome
 - [java使用headless chrome](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/headless-chrome-base-java.md)
+- [java远程调用headless chrome](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/headless-chrome-remote.md)
 
 ### appium
 #### appium环境搭建
