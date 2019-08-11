@@ -28,6 +28,7 @@
   - 多域名cookie管理
 - [滑块验证码](#滑块验证码)
   - [拼图类滑块验证码](#拼图类滑块验证码)
+  - [拖动类滑块验证码](#拖动类滑块验证码)
 - [图形验证码](#图形验证码)
   - [数字英文类图形验证码](#数字英文类图形验证码)
 - [反编译](#反编译)
@@ -40,9 +41,8 @@
   - [xposed插件](#xposed插件)
   - [xposed脱壳](#xposed脱壳)
   - [hook](#hook)
-  - [virtualXposed(免xposed)](#virtualXposed)
+  - [virtualXposed(免root xposed)](#virtualXposed)
 - [selenium](#selenium)
-  - webdriver
   - [headlessChrome](#headlessChrome)
   - phantomjs(版本已不再更新,一般不考虑使用)
 - [appium](#appium)
@@ -54,6 +54,9 @@
 #### 拼图类滑块验证码
 - [移动图片和另一张图片拼完整得到x轴坐标差(java版)](https://github.com/zdg39/Z-Spider/tree/master/slide-image)
 - [移动图片和另一张图片拼完整得到x轴坐标差(python版)](https://github.com/zdg39/Z-Spider/tree/master/opencv-python)
+
+#### 拖动类滑块验证码
+- [拖动滑块至最右侧类滑块验证码](https://github.com/zdg39/Z-Spider/blob/master/slider-verification-code/slider-verification-code1.md)
 
 ### 图形验证码
 #### 数字英文类图形验证码
