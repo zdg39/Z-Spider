@@ -102,7 +102,6 @@ move(remoteHeadlessDriver,webElement,400);
 当整个流程可以跑通后再浏览器界面键入:http://localhost:9222 点击你所加载的网站即可看到headless chrome的运行状态,可以看到滑块已经验证成功,在破解滑块成功后记得使用headlessChromeDriver.quit()关闭浏览器
 ``
 
-![slider-verification-code-success](https://raw.githubusercontent.com/zdg39/Z-Spider/master/slider-verification-code/images/slider-verification-code-success.png)
 
 ## 后记
 在这里使用的是调用本地的headless chrome破解滑块验证码,还可以调用远程headless chrome,具体可以参考[java远程调用headless chrome](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/headless-chrome-remote.md)。
