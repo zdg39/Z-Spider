@@ -54,6 +54,7 @@
   - phantomjs(版本已不再更新,一般不考虑使用)
 - [appium](#appium)
   - [appium环境搭建](#appium环境搭建)
+- ActiveX控件(一般是银行的数据会采用ActiveX控件反爬,不建议分析了解即可)
 
 ---
 
