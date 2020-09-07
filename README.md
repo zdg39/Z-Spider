@@ -21,8 +21,10 @@
   - [Charles](#Charles)
   - [mitmproxy](#mitmproxy)
   - [Wireshark](#Wireshark)
-- 正则
-  - 贪婪模式和非贪婪模式
+- [正则](#正则)
+  - [基础知识](#基础知识)
+  - [元字符和简写字符集](#元字符和简写字符集)
+  - 贪婪模式,懒惰模式和独占模式
 - xpath
 - jsoup
 - 构建js解析器
@@ -53,7 +55,8 @@
 - [appium](#appium)
   - [appium环境搭建](#appium环境搭建)
 
-***
+---
+
 ### 抓包工具
 #### Fiddler
 - [官方文档](https://www.telerik.com/fiddler)
@@ -69,6 +72,18 @@
 - [Wireshark 捕捉本地数据 --WinPcap切换NPcap](https://www.cnblogs.com/hongdada/p/7474917.html)
 - [如何用 wireshark 抓包 TLS 封包](https://segmentfault.com/a/1190000018746027)
 
+---
+
+### 正则
+#### 基础知识
+- [正则学习](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md)
+
+#### 元字符和简写字符集
+- [元字符](https://github.com/zdg39/Z-Spider/tree/master/regex/meta-character.md)
+- [简写字符集](https://github.com/zdg39/Z-Spider/tree/master/regex/simple-character.md)
+
+---
+
 ### 滑块验证码
 #### 拼图类滑块验证码
 - [移动图片和另一张图片拼完整得到x轴坐标差(java版)](https://github.com/zdg39/Z-Spider/tree/master/slide-image)
@@ -81,9 +96,13 @@
 #### 数字英文类图形验证码
 - [无干扰线无扭曲无交叠数字英文类图形验证码](https://github.com/zdg39/Z-Spider/tree/master/tess4j-ocr-examples)
 
+---
+
 ### 反编译
 #### jadx-gui
 - [jadx-gui的高级技巧](https://www.jianshu.com/p/e5b021df2170)
+
+---
 
 ### 中间人
 #### littleproxy
@@ -96,6 +115,8 @@
 
 #### servlet反向代理
   - [使用教程](https://github.com/mitre/HTTP-Proxy-Servlet)
+
+---
 
 ### xposed
 #### xposed插件
@@ -111,17 +132,23 @@
 - [官方文档](https://vxposed.com)
 - [使用VirtualXposed进行hook](https://mp.weixin.qq.com/s?__biz=MzI1NDg4MTIxMw==&mid=2247484059&idx=1&sn=08722492fcaca840d980b20921217d1c&key=4e389947016351e1e0db9e4c748d4deb1b165b7ba8575728f8540ec8b86c839a13a3bece438383827c017d8e908b56f00dd5ae22ac718ac33436d0ffa42a6ca8dfc753c56945a92789d2c883f11c4f49&ascene=1&uin=MjE4NDE2MzgzNw%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&pass_ticket=f78tVFFElmpnLb7e%2F62L9mBW74v5Nfk9gRZSx%2F0gSXqm5m33zI4TBCJ2csHcyBCO)
 
-## selenium
-### headlessChrome
+---
+
+### selenium
+#### headlessChrome
 - [java使用headless chrome](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/headless-chrome-base-java.md)
 - [java远程调用headless chrome](https://github.com/zdg39/Z-Spider/blob/master/headless-chrome/headless-chrome-remote.md)
+
+---
 
 ### appium
 #### appium环境搭建
 - [java使用appium](http://www.testclass.net/appium/appium-base-java)
 - [appium相关教程](http://www.testclass.net/appium)
 
-## Author
+---
+
+### Author
 
 👤**zdg &lt;zhudg39@gmail.com&gt;**
 
