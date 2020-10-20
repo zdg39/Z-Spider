@@ -25,7 +25,8 @@
   - [基础知识](#基础知识)
   - [元字符和简写字符集](#元字符和简写字符集)
   - 贪婪模式,懒惰模式和独占模式
-- xpath
+- [xpath](#xpath)
+  -[基础知识](#基础知识)
 - jsoup
 - 构建js解析器
   - rhino+envjs
@@ -83,6 +84,13 @@
 #### 元字符和简写字符集
 - [元字符](https://github.com/zdg39/Z-Spider/tree/master/regex/meta-character.md)
 - [简写字符集](https://github.com/zdg39/Z-Spider/tree/master/regex/simple-character.md)
+
+---
+
+### xpath
+#### 基础知识
+- [xpath语法](https://devhints.io/xpath)
+- [xpath语法验证](http://www.whitebeam.org/library/guide/TechNotes/xpathtestbed.rhtm)
 
 ---
 
