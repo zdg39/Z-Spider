@@ -27,7 +27,8 @@
   - 贪婪模式,懒惰模式和独占模式
 - [xpath](#xpath)
   - [基础知识](#基础知识)
-- jsoup
+- [jsoup](#jsoup)
+  - [基础知识](#基础知识)
 - 构建js解析器
   - rhino+envjs
   - htmlunit+jsp
@@ -91,6 +92,13 @@
 #### 基础知识
 - [xpath语法](https://devhints.io/xpath)
 - [xpath语法验证](http://www.whitebeam.org/library/guide/TechNotes/xpathtestbed.rhtm)
+
+---
+
+### jsoup
+#### 基础知识
+- [jsoup语法](https://jsoup.org/cookbook)
+- [jsoup语法验证](https://try.jsoup.org)
 
 ---
 
