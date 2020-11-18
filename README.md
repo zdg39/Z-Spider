@@ -110,6 +110,8 @@
 #### 拖动类滑块验证码
 - [拖动滑块至最右侧类滑块验证码](https://github.com/zdg39/Z-Spider/blob/master/slider-verification-code/slider-verification-code1.md)
 
+---
+
 ## ♠️ 图形验证码
 #### 数字英文类图形验证码
 - [无干扰线无扭曲无交叠数字英文类图形验证码](https://github.com/zdg39/Z-Spider/tree/master/tess4j-ocr-examples)
