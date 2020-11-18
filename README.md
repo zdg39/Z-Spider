@@ -113,6 +113,7 @@
 ## ♠️ 图形验证码
 #### 数字英文类图形验证码
 - [无干扰线无扭曲无交叠数字英文类图形验证码](https://github.com/zdg39/Z-Spider/tree/master/tess4j-ocr-examples)
+- [两种方式识别“传统”图片验证码](https://mp.weixin.qq.com/s/sMVbdTYErnujU2OvZwjlrg)
 
 ---
 
