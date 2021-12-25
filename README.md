@@ -20,6 +20,7 @@
   - [Fiddler](#Fiddler)
   - [Charles](#Charles)
   - [mitmproxy](#mitmproxy)
+  - [Proxyman](#Proxyman)
   - [Wireshark](#Wireshark)
 - [正则](#正则)
   - [基础知识](#基础知识)
@@ -70,6 +71,9 @@
 
 #### mitmproxy
 - [官方文档](https://github.com/mitmproxy/mitmproxy)
+
+#### Proxyman
+- [官方文档](https://proxyman.io)
 
 #### Wireshark
 - [官方文档](https://www.wireshark.org)
